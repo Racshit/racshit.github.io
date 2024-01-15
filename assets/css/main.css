@@ -3013,24 +3013,28 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px;
+			border: solid 2px;
 			border-left: 0;
 			border-right: 0;
 		}
 
 		table td {
 			padding: 0.75rem 0.75rem;
+			text-align: center;
 		}
 
 		table th {
+			
+			background-color: rgba(198, 8, 8, 0.747);
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 0.8rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			line-height: 1.5;
-			padding: 0 0.75rem 0.75rem 0.75rem;
-			text-align: left;
+			padding: 0.95rem 0.75rem 0.75rem 0.75rem;
+			text-align: center;
 			text-transform: uppercase;
+			border: solid 2px;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3053,9 +3057,9 @@ input, select, textarea {
 			border-collapse: separate;
 		}
 
-			table.alt tbody tr td {
-				border: solid 1px;
-				border-left-width: 0;
+			table.alt tbody tr th, td {
+				border: solid 2px;
+				border-left-width: 2px;
 				border-top-width: 0;
 			}
 
@@ -3076,11 +3080,11 @@ input, select, textarea {
 			}
 
 	table tbody tr {
-		border-color: #eeeeee;
+		border-color: hsl(0, 18%, 3%);
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(220, 220, 220, 0.25);
+			background-color: rgba(62, 8, 198, 0.25);
 		}
 
 	table th {
@@ -3088,7 +3092,7 @@ input, select, textarea {
 	}
 
 	table thead {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: #100f0f;
 	}
 
 	table tfoot {
